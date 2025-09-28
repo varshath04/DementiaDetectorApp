@@ -1,0 +1,93 @@
+/* Container */
+.cart-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+/* About Section */
+.about-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.about-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.about-subheading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #34495e;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.about-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-list li {
+  margin-bottom: 12px;
+}
+
+/* Prototype Card */
+.prototype-card {
+  background-color: #eaf4ff;
+  border-left: 6px solid #3498db;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.prototype-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.prototype-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 20px 10px;
+  }
+
+  .about-heading {
+    font-size: 26px;
+  }
+
+  .about-subheading {
+    font-size: 20px;
+  }
+
+  .about-description,
+  .about-list,
+  .prototype-text {
+    font-size: 15px;
+  }
+}
